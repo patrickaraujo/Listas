@@ -1,3 +1,9 @@
+# Lista Sequencial Estática – Estrutura de Dados em _C_
+
+Este projeto tem como objetivo ensinar e demonstrar, de forma prática, a implementação de uma **Lista Sequencial Estática** em linguagem _C_.
+
+---
+
 ## 🧱 Lista Sequencial Estática
 
 Implementada com base em um _array_. Cada novo elemento é inserido em uma posição contígua da memória.
@@ -49,3 +55,6 @@ Além do _array_, utiliza-se um campo `qtd` que indica quantas posições estão
 ---
 
 Este material foi elaborado como parte de uma aula prática de estruturas de dados em _C_.
+
+# TAD_ListaSequencialEstatica
+Implementação do TAD Lista Sequencial Estática em Linguagem _C_
