@@ -53,6 +53,19 @@ As listas podem ser representadas de diferentes maneiras, variando conforme a po
 - Destruição da lista
 
 ---
+
+## 🔹 Análise de Complexidade das Operações de Listas
+
+| 🔢 **Operação**               | 📄 **Lista Sequencial Estática** | 📄 **Lista Dinâmica Encadeada** | 📄 **Lista Dinâmica Encadeada Circular** | 📄 **Lista Dinâmica Duplamente Encadeada** | 📄 **Lista Dinâmica com Nó Descritor** |
+|--------------------------------|---------------------------------|--------------------------------|-----------------------------------------|-------------------------------------------|----------------------------------------|
+| `Inserção no início`           | O(N)                            | O(1)                           | O(N)                                   | O(1)                                     | O(1)                                   |
+| `Inserção no final`            | O(1)                            | O(N)                           | O(N)                                   | O(N)                                     | O(1)                                   |
+| `Inserção ordenada`            | O(N)                            | O(N)                           | O(N)                                   | O(N)                                     | O(N)                                   |
+| `Remoção do início`            | O(N)                            | O(1)                           | O(N)                                   | O(1)                                     | O(1)                                   |
+| `Remoção do final`             | O(1)                            | O(N)                           | O(N)                                   | O(N)                                     | O(N)                                   |
+| `Remoção de elemento específico` | O(N)                         | O(N)                           | O(N)                                   | O(N)                                     | O(N)                                   |
+| `Consulta`                    | O(N)                            | O(N)                           | O(N)                                   | O(N)                                     | O(N)                                   |
+
 ---
 
 ## Referências
