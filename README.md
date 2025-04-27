@@ -1,8 +1,6 @@
-# Lista Sequencial Estática – Estrutura de Dados em _C_
+# Listas – Estrutura de Dados em _C_
 
-Este projeto tem como objetivo ensinar e demonstrar, de forma prática, a implementação de uma **Lista Sequencial Estática** em linguagem _C_. O conteúdo aqui apresentado é parte de uma aula sobre estruturas de dados lineares.
-
-O código está na pasta "`codigo`".
+Material sobre Filas da disciplina de Estrutura de Dados e seus Algoritmos
 
 ---
 
@@ -68,6 +66,3 @@ As listas podem ser representadas de diferentes maneiras, variando conforme a po
 ---
 
 Este material foi elaborado como parte de uma aula prática de estruturas de dados em _C_.
-
-# Listas
-Material sobre Filas da disciplina de Estrutura de Dados e seus Algoritmos
