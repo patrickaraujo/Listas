@@ -12,11 +12,9 @@ Implementada com base em um _array_. Cada novo elemento é inserido em uma posi�
 
 ### Estrutura Base
 
+### `ListaSequencial.h`
 ```c
-// Define a capacidade máxima da lista sequencial.
-// A lista poderá armazenar até 100 elementos do tipo struct aluno.
-#define MAX 100
-
+// ===== Arquivo: ListaSequencial.h =====
 struct aluno {
     int matricula;
     char nome[30];
@@ -24,7 +22,19 @@ struct aluno {
 };
 ```
 
-Além do _array_, utiliza-se um campo `qtd` que indica quantas posições estão ocupadas.
+A lista é definida como um _array_ fixo de `struct aluno`.
+
+### `ListaSequencial.h`
+```c
+// ===== Arquivo: ListaSequencial.c =====
+// Definição do tipo lista
+struct lista {
+    int qtd;
+    struct aluno dados[MAX];
+};
+```
+
+---
 
 ### ✅ Vantagens
 
